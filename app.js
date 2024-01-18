@@ -17,6 +17,8 @@ function printOdds(count){
     }
 }
 
+printOdds(50);
+
 // Exercise 2 Section
 console.log("EXERCISE 2:\n==========\n");
 
@@ -37,6 +39,12 @@ function checkAge(userName, age){
         }
     }
 }
+
+checkAge("Victor",30);
+
+checkAge("Martin", 12);
+
+checkAge("Patrick",16);
 
 // Exercise 3 Section
 console.log("EXERCISE 3:\n==========\n");
@@ -69,6 +77,13 @@ function quadrant(x, y){
     }
 }
 
+quadrant(0, 2);
+quadrant(2,0);
+quadrant(1, 2);
+quadrant(-6,18);
+quadrant(-1,-2);
+quadrant(6,-18);
+
 // Exercise 4 Section
 console.log("EXERCISE 4:\n==========\n");
 
@@ -89,6 +104,11 @@ function makeTriangle(s1,s2,s3){
         }
     }
 }
+
+makeTriangle(1,1,2);
+makeTriangle(2,2,2);
+makeTriangle(7,4,7);
+makeTriangle(4,7,9);
 
 // Exercise 5 Section
 console.log("EXERCISE 5:\n==========\n");
@@ -133,3 +153,11 @@ function dataPlan(planLimit, day, usage){
         }
     }
 }
+
+dataPlan(100,15,56);
+console.log("------");
+dataPlan(50,20,30);
+console.log("------");
+dataPlan(30,1,1);
+console.log("------");
+dataPlan(100,29,103);
