@@ -58,10 +58,10 @@ function quadrant(x, y){
         console.log(`(${x},${y}) is on the center of the axis`);
     }
     else if(x === 0){
-        console.log(`(${x},${y}) is on the x axis`);
+        console.log(`(${x},${y}) is on the y axis`);
     }
     else if(y === 0){
-        console.log(`(${x},${y}) is on the y axis`);
+        console.log(`(${x},${y}) is on the x axis`);
     }
     else if(x >= 1 && y >= 1){
         console.log(`(${x},${y}) is in Quadrant 1`);
